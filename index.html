@@ -1,15 +1,206 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8"">
-    <!-- cssファイル指定 -->
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>目黒区　高齢者ケア状況分析</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='モックアップサイト @Git Hub page'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='モックアップサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="モックアップサイトです" />
+  <title>オープンデータハッカソン　モックアップサイト</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel=”canonical” href=”URLが入る” />
+  <!-- 20211226Add -->
+  <!-- <link rel="css/stylesheet.css" media="all" rel="stylesheet" type="text/css" /> -->
+  
+</head>
 
 <body>
-<p>目黒区　高齢者ケア状況分析　（高齢者：６５歳以上、介護保険第１号被保険者）</p>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <!-- 20210508upd クリック時にTOPに戻れないのでクリック時の遷移削除 -->
+          <!-- <a href=".">Tokyo DX Members</a> -->
+           <a>めぐろく高齢者ケア事業支援マップ</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <style>/*
+            <li class="header-nav-item"><a href="#works">MEMBERS</a></li>
+            <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+            */</style>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    
+    <main class="content">
+      <!-- split -->
+      <div class="split">
+        <div class="split-body">
+          <!-- <p class="split-title">　<br>めぐろくマップ</p> -->
+          <p class="split-text">
+            <!-- 20211226Add ヘッダにタイトル表示のため2行開ける-->
+            <br>
+            <br>
+            <!-- あああああ<br> -->
+            <!-- 紹介するポートフォリオサイトです。<br> -->
+          </p>
+        </div>
+        <!-- <div class="split-img"></div> -->
+      </div>
+      <!-- /split -->
+
+<!-- 20211226Add -->
 <iframe src="https://nuki333.github.io/tokyo_choropleth_map2/"></iframe>
 <!-- <iframe src="https://public.flourish.studio/visualisation/5253915/"></iframe> -->
 <div class="flourish-embed flourish-chart" data-src="visualisation/8168872"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+      <style>/*
+      <!-- MEMBERS -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <h2 class="title">利用した東京都オープンデータ</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000017">
+              <p class="works-img"><img src="img/icon_meguroku.jpg" alt="" /></p>
+              <p class="works-name">目黒区　マップ用ポリゴンデータ・高齢人口　2015</p>
+              <!-- <p class="works-info">BI/ダッシュボード</p> -->
+            </a>
+            <a class="works-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000030">
+              <p class="works-img"><img src="img/icon_meguroku.jpg" alt="" /></p>
+              <p class="works-name">目黒区　公共施設</p>
+            </a>
+            <a class="works-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000025">
+              <p class="works-img"><img src="img/icon_meguroku.jpg" alt="" /></p>
+              <p class="works-name">目黒区　介護保険介護サービス給付費</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+      */</style>
+
+      <style>/*
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">BI/ダッシュボード</h3>
+                <p class="skill-text">
+                  コロナ対策サイト/予算の見える化ダッシュボード</p>
+                </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">RPA</h3>
+                <p class="skill-text">
+                  WinActorでの改善事例</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">5G</h3>
+                <p class="skill-text">
+                  アセットの公開</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">スマートシティ</h3>
+                <p class="skill-text">
+                  西新宿/南大沢/竹芝</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">MaaS</h3>
+                <p class="skill-text">
+                  モビリティ/自動運転</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icon_skill.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">オープンデータ</h3>
+                <p class="skill-text">
+                  オープンデータカタログサイト/利活用勉強会</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+      */</style>
+
+      <!-- 利用したオープンデータ -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <h2 class="title">利用したオープンデータ</h2>
+          <p class="lead">
+            <a class="contact-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000017" target="_blank" rel="noopener">目黒区　マップ用ポリゴンデータ・高齢人口　2015<br></a>
+            <a class="contact-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000030" target="_blank" rel="noopener">目黒区　公共施設<br></a>
+            <a class="contact-item" href="https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000025" target="_blank" rel="noopener">目黒区　介護保険介護サービス給付費<br></a>
+            <a class="contact-item" href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">国土地理院タイル</a>
+          </p>
+        </div>
+      </section>
+
+      <style>/*
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">問い合わせフォームかメールにてお願いいたします。<br>
+            〇〇部〇〇課　サイト管理者<br>
+          </p>
+          <div class="contact-list">
+            <!-- <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a> -->
+            <a class="contact-item" href="https://www.metro.tokyo.lg.jp/" target="_blank" rel="noopener">問い合わせフォーム</a>
+            <span class="contact-item">email:xxxxxx@xxx.com TEL:03-9999-9999</span>
+          </div>
+        </div>
+      </section>
+      */</style>
+
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Tokyo OpenData Hackathon</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
